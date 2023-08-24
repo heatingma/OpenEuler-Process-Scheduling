@@ -1,18 +1,10 @@
 
 
-<center><strong><font face="微软雅黑" size=5>openEuler 进程调度</font></strong></center>
+## openEuler 进程调度
 
-</center>
+### 目录 
 
-<strong>
-
-</font>
-
-<center><font face="华文楷体" size=5>目录</font></center>
-
-<font face="华文楷体" size=2.5>
-
-<font face="华文楷体" size=3>Chapter 1 进程基本概念</font>
+##### Chapter 1 进程基本概念
 
         1、什么是进程
         1.1 进程的定义
@@ -24,7 +16,8 @@
         3.1 什么是进程调度
         3.2 为什么需要进程调度
 
-<font face="华文楷体" size=3>Chapter 2 struct task_struct（该部分可以先调过）</font>
+
+##### Chapter 2 struct task_struct
 
         1、结构体总体介绍
         1.1 为什么要介绍 struct task_struct
@@ -38,7 +31,8 @@
         9、进程的调度
         10、struct task_struct 总结
 
-<font face="华文楷体" size=3>Chapter 3 进程调度</font>
+
+##### Chapter 3 进程调度
 
         1、进程的调度流程
         1.1 再次提及进程调度
@@ -49,7 +43,8 @@
         4、__schedule
         5、Chapter3 总结
 
-<font face="华文楷体" size=3>Chapter 4 CFS（完全公平调度）介绍</font>
+
+##### Chapter 4 CFS（完全公平调度）介绍
 
         1.1 CFS基本原理概述
         1.2 CFS相关概念
@@ -60,18 +55,11 @@
         5、struct sched_class fair_sched_class
         6、Chapter4 总结 & 完整思维导图
 
-<font face="华文楷体" size=3>Chapter 5 选做部分</font>
+##### Chapter 5 选做部分
 
-</font>
 
-<div STYLE="page-break-after: always;"></div>
-
+### 完整思维导图
 <br>
-
-<center><font face="华文楷体" size=5>完整思维导图</font></center>
-
-<br>
-
 <div><center>
 <img src = source/完整思维导图.png width=90% height=90% >
 <br>
